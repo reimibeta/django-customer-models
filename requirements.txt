@@ -1,0 +1,7 @@
+Django==3.2.3
+django-admin-list-filter-dropdown==1.0.3
+datetime-utils @ git+https://github.com/reimibeta/django-datetime-utils.git
+html-render-utils @ git+https://github.com/reimibeta/django-html-render-utils.git
+djangorestframework==3.12.4
+djangorestframework-simplejwt==4.6.0
+Pillow==8.2.0
