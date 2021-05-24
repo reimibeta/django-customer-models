@@ -35,7 +35,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    # django rest-framework
+    'rest_framework',
     'customer_models.apps.CustomerConfig',
     # django-cleanup
     'django_cleanup.apps.CleanupConfig',  # should go after your apps
