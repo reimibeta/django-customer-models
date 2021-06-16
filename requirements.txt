@@ -1,5 +1,5 @@
 asgiref==3.3.4
-datetime-utils @ git+https://github.com/reimibeta/django-datetime-utils.git@545cd2e124497406647b538a3a371549aaca4b8c
+datetime-utils @ git+https://github.com/reimibeta/django-datetime-utils.git@294106b8b43ebd33c2b65dcf4e5b55077f8de32c
 Django==3.1.7
 django-admin-list-filter-dropdown==1.0.3
 django-cleanup==5.2.0

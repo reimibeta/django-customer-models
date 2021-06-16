@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=255)),
                 ('priority', models.CharField(blank=True, choices=[('NORMAL', 'normal'), ('REGULAR', 'regular'), ('VIP', 'vip'), ('TOP', 'top')], max_length=60, null=True)),
-                ('created_date', models.DateField(default=datetime_utils.date_time.DateTime.datenow)),
+                ('created_date', models.DateField(default=datetime_utils.date_time.DateTime(config='date').now())),
                 ('status', models.BooleanField(default=True)),
             ],
         ),

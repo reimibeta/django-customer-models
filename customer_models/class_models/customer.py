@@ -21,7 +21,7 @@ class CustomerPriority(Enum):
 class Customer(models.Model):
     name = models.CharField(max_length=255)
     priority = models.CharField(max_length=60, choices=CustomerPriority.choices(), blank=True, null=True)
-    created_date = models.DateField(default=DateTime.datenow)
+    created_date = models.DateField(default=DateTime(config='date').now())
     status = models.BooleanField(default=True)
 
     def __str__(self):
