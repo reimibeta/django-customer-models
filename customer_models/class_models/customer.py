@@ -3,7 +3,7 @@ from enum import Enum
 from django.db import models
 from django.db.models.signals import post_save
 from django.dispatch import receiver
-from django_datetime.date_time import datetime
+from django_datetime.datetime import datetime
 
 
 class CustomerPriority(Enum):
