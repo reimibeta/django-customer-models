@@ -1,6 +1,6 @@
+from django_rest_framework.pagination import StandardResultsSetPagination
 from rest_framework import viewsets, permissions
 from rest_framework_simplejwt.authentication import JWTAuthentication
-from rest_framework_utils.pagination import StandardResultsSetPagination
 
 from customer_models.class_models.customer import Customer
 from customer_models.class_serializers.customer_serializers import CustomerSerializer

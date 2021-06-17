@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django_admin_listfilter_dropdown.filters import DropdownFilter, RelatedDropdownFilter
-from html_render_utils.html_render import HtmlRender
+from django_html_render.html_render import HtmlRender
 
 from customer_models.class_admins.customer_address_admin import CustomerAddressAdminInline
 from customer_models.class_admins.customer_phone_admin import CustomerPhoneAdminInline
